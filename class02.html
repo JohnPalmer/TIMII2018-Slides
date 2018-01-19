@@ -61,54 +61,21 @@ background-color: rgba(0,0,0,0.5)
 		<p><a href="http://johnrbpalmer.com">John Palmer</a>
 		</section>
 
-<section>
-<section>
-		<h2>Migration Patterns</h2>
-</section>
-
-		<section data-state="footer_metro">
-<style>.footer_metro footer:after { content: "Metrocosm visualization from UN data, http://metrocosm.com/global-migration-map.html."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>
-
-		<iframe class="stretch" src="https://www.youtube.com/embed/uSM74Pqi288" frameborder="0" allowfullscreen></iframe>
-		
-		</section>
-
-<section data-state="footer_mpi">
-<style>.footer_mpi footer:after { content: "Migration Policy Institute chart from UN data, http://www.migrationpolicy.org/programs/data-hub/charts/international-migrants-country-destination-1960-2015."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>	
-<img class="stretch" src="images/MPI_total_migration_n.png">
-</section>
-
-<section data-state="footer_mpi">
-<style>.footer_mpi footer:after { content: "Migration Policy Institute chart from UN data, http://www.migrationpolicy.org/programs/data-hub/charts/international-migrants-country-destination-1960-2015."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>
-<img class="stretch" src="images/MPI_total_migration_share.png">
-</section>
-
-<section data-state="footer_mpi">
-<style>.footer_mpi footer:after { content: "Migration Policy Institute chart from UN data, http://www.migrationpolicy.org/programs/data-hub/charts/international-migrants-country-destination-1960-2015."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>
-<img class="stretch" src="images/MPI_euro_migration_n.png">
-</section>
-
-<section data-state="footer_mpi">
-<style>.footer_mpi footer:after { content: "Migration Policy Institute chart from UN data, http://www.migrationpolicy.org/programs/data-hub/charts/international-migrants-country-destination-1960-2015."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>
-<img class="stretch" src="images/MPI_25_destinations.png">
-</section>
-
- 
-
-<section data-state="footer_sci">
-<style>.footer_sci footer:after { content: "Nikola Sander, Guy J. Abel & Ramon Bauer, CC BY-NC-SA 3.0, http://www.global-migration.info/."; color:black;background-color: rgba(255,255,255,0.5); padding: 5px;}</style>
-<img class="stretch" src="images/migration_flows_science_small.jpg">
-</section>
-
-</section>
-
 
 		<section>
 			<section>
 				<h2>Borjas (1989)</h2>
 			</section>
 			
-
+			<section>
+				<h3>Onion Layer 1</h3>
+				<ul>
+					<li>What is this article about?</li>
+					<li>What methods does Borjas use?</li>
+					<li>What are his assumptions?</li>
+					<li>What are his conclusions?</li>
+				</ul>
+			</section>
 			
 			<section>
 				<h3>Earnings Function</h3>
@@ -119,26 +86,46 @@ background-color: rgba(0,0,0,0.5)
 				
 			</section>
 			
-			
+
+			<section>
+				<ul>What is $\epsilon$?</ul>
+				<br><br>
+				<ul>What does it mean for $\epsilon$ to be uncorrelated with X?</ul>
+			</section>
 
 			<section>
 
 				$$\epsilon_0 \sim \mathcal{N}\left(0, \sigma^2_0\right)$$
 			</section>
+
+
+			<section>
+				<ul>Is it reasonable to assume $\log w$ is normally distributed?</ul>
+			</section>
 			
 			
 			<section>
-				$$\rho$$
+				<ul>What is $\rho$?</ul>
+				<br><br>
+				<ul>What does it mean for $\rho$ to be positive?</ul>
 			</section>
 			
 			
 			<section>
 				<h3>Index Function</h3>
 				$$\textrm{I} = \log \left[ \frac{w_1}{w_0 + C} \right] \approx \left[\textrm{X}\left(\delta_0 - \delta_1\right) - \pi \right] + \left(\epsilon_1 - \epsilon_0 \right)$$
-				
-				
 			</section>
 
+			<section>
+				<p>What is C?</p>
+				<p>What is $\pi?$</p>
+			</section>
+
+
+			<section>
+				<p>Why does the approximation hold?</p>
+				<p>The following slides have hints...</p>
+			</section>
 
 			<section>
 				
@@ -161,26 +148,36 @@ background-color: rgba(0,0,0,0.5)
 			</section>
 
 			<section>
+				<ul>
+					<li>What is the relationship between emigration rate and host country mean income?</li>
+				<li>What is the relationship between emigration rate and source country mean income?</li>
+				<li>What is the relationship between emigration rate and migration costs?</li>
+				<li>What is the relationship between emigration rate and the payoff differential between host and source country?</li></ul>
+			</section>
+
+			<section>
 				<i>An economist is a man who states the obvious in terms of the incomprehensible.</i>
 				<p>- Alfred A. Knopf</p>
 			</section>
 
+
 			<section>
-				<p>Is the size conclusion obvious?</p>
+				<ul>
+				<li>Has Borjas proved that migrants are rational income-maximizers?</li>
+				<li>Has he proved that there is an "immigration market"?</li>
+			</ul>
 			</section>
-
-
 
 			<section>
 				
-				<h3>Observed demographic variables</h3>
+				<h3>observed characteristics</h3>
 
 				$$\textrm{X} = \mu_{\textrm{X}} + \epsilon_{\textrm{X}}$$ 
 
 			</section>
 
 			<section>
-				<h3>Conditional Expectation for Observed Characteristics</h3>
+				<h3>Expectation of Migrants' Observed Characteristics</h3>
 
 				$$\textrm{E}(\textrm{X} | I > 0) = \mu_{\textrm{X}} + k(\delta_1 - \delta_0)$$ 
 
@@ -188,7 +185,7 @@ background-color: rgba(0,0,0,0.5)
 
 
 			<section>
-				<h3>Conditional Expectation for UnObserved Characteristics</h3>
+				<h3>Conditional Expectation for Unobserved Characteristics</h3>
 
 				$$\textrm{Q}_0 = \textrm{E}(\epsilon_0 | X, I > 0)$$ 
 <br>
@@ -198,33 +195,17 @@ background-color: rgba(0,0,0,0.5)
 
 			</section>
 
+			<section>
+				<ul><li>What does Borjas mean when he says that unobserved characteristics dominate earnings distribution data? (Top of p. 476)</li>
+					<li>How does positive selection occur?</li>
+					<li>How does negative selection occur?</li>
+					<li>How does refugee sorting occur?</li></ul>
+			</section>
+
 
 		</section>
 
 
-		
-		<section>
-			<section>
-				<h2>Borjas (1999)</h2>
-			</section>
-
-			<section>
-				<h3>Earnings Function</h3>
-				$$\log w_0 = \mu_0 + \eta_0v$$
-				<br>
-				
-				$$\log w_j = \mu_j + \eta_jv$$
-				
-			</section>
-
-			<section>
-				<img class="stretch" src="images/borjas_welf_costless.jpg">
-			</section>
-
-
-
-			
-		</section>
 		
 		<section>
 			<section>
@@ -240,19 +221,14 @@ background-color: rgba(0,0,0,0.5)
 
 
 			<section>
-				<img class="stretch" src="images/chw_tab1.jpg">
-			</section>
-
-			<section>
 				<img class="stretch" src="images/chw_variables1.jpg">
 			</section>
 
 
+
 			<section>
-				<img class="stretch" src="images/chw_eq.jpg">
+				<h3>Theory to Hypotheses</h3>
 			</section>
-
-
 
 			<section>
 				<h3>Individual Migration Probability Model</h3>
@@ -268,31 +244,26 @@ background-color: rgba(0,0,0,0.5)
 
 			</section>
 			
-		</section>
-		
-		<section>
 			<section>
-				<h2>Assignment</h2>
+				<h3>Empirical testing</h3>
+			</section>
+
+						<section>
+				<img class="stretch" src="images/chw_eq.jpg">
 			</section>
 
 			<section>
-				<h4>Reading</h4>
+				<h4>Empirical Model</h4>
 				<ul>
-					<li>Stark &amp; Taylor (1989): optional</li>
-					<li><b>Massey &amp; Espinoza (1997): all groups</b></li>
-					<li>Massey &amp; España (1987): optional</li>
-				</ul>
-				<br><br>
-				<h4>Writing</h4>
-				<ul>
-					<li style="list-style-type: none;">
-						<ul>
-							<li>Same as always. <i>Please remember to turn in through Aula Global.</i></li>
-						</ul>
-					</li>
+					<li>Fixed effects regression of log migration rate on explanatory variables</li>
+					<li>official immigrant admissions to U.S.</li>
+					<li>81 source countries</li>
+					<li>1971-1998 (28 years)</li>
 				</ul>
 			</section>
+
 		</section>
+		
 		
 		
 	</div>
